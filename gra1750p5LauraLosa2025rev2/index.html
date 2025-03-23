@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Laura Losa | Restaurant Mobile Site </title>
+<link rel="stylesheet" href="https://use.typekit.net/vpr2ygn.css">
+<style>
+	body{
+		margin: 0 auto;
+		width: 700px;
+	}
+	wrapper{
+		display: block;
+		margin: 0;
+		padding: 5% 8%;
+		width: 700px;
+		background-color: rgba(254,252,242,1.00);
+		box-sizing: border-box;
+		margin-top: 0;
+	}
+	header{
+		margin: 0;
+		padding: 10px 0;
+		background-color: rgba(254,252,242,1.00);
+	}
+	.menu, .market{
+		display: block;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+	.intro{
+		margin-top: 0;
+		font-family: "amster", serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+	footer{
+		margin: 0;
+		padding: 1px 5%;
+		width: 700px;
+		background-color: rgba(15,15,15,0.94);
+		background-position: bottom;
+		box-sizing: border-box;
+	}
+	#end{
+		margin-bottom: 0;
+	}
+	.footertext{
+		color: white;
+		font-family: "amster", serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+	.houselogo{
+		display: block;
+		margin: 0% auto;
+		padding: 5px 0px;
+	}
+	.information{
+		text-align: center;
+		font-family: "amster", serif;
+		font-weight: 400;
+		font-style: normal;	
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+	wrapper img{
+		width: 600px;
+	}
+	.res{
+		display: block;
+		width: 700px;
+		margin: 0;
+	}
+	.banner{
+		position: relative;
+		width: 700px;
+		height: 460px;
+	}
+	.res, .intro{
+		position: absolute;
+		width: 100%;
+	}
+	.intro{
+		color: white;
+		padding: 25px;
+		bottom: 0;
+		left: 0;
+		text-justify: auto;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	header{
+		position: relative;
+	}
+	.button{
+		transition-duration: 0.4s;
+		cursor: pointer;
+	}
+	.button1{
+		position: absolute;
+		transform: translate(600px, -55px);
+		background-color:rgba(251,174,71,0.85);
+		padding: 5px;
+		border-style: none;
+		border-radius: 5px;
+		font-family: "amster", serif;
+		font-weight: 800px;
+		font-style: normal;
+		box-shadow: 0 3px;
+	}
+	.button1:hover{
+		background-color: #A24803;
+		color: white;
+		box-shadow: 0 3px;
+	}
+	.button2, .button3{
+		font-family: "amster", serif;
+		weight: 800;
+		font-style: normal;
+		background-color:rgba(251,174,71,0.85);
+		padding: 5px;
+		border-style: none;
+		border-radius: 5px;
+		box-shadow: 0 3px;
+		width: 600px;
+		margin-top: 10px;
+	}
+	.button2:hover, .button3:hover{
+		background-color: #A24803;
+		color: white;
+		box-shadow: 0 3px;
+	}
+	nav{
+		background-color: rgba(251,174,71,0.85);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 15px 15px;
+		border-bottom: 3px solid black;
+	}
+	nav a{
+		font-family: "amster", serif;
+		font-weight: 800px;
+		font-style: normal;
+		color: black;
+		text-decoration: none;
+		transition-duration: 0.4s;
+		cursor: pointer;
+	}
+	nav a:hover{
+		transform: scale(1.1);
+	}
+	.market{
+		margin-top: 80px;
+	}
+</style>
+</head>
+<body>
+	<main>
+	<header>
+	 <picture>
+	<img src="sunlogo.svg" alt="sunlogo" class="houselogo" height="15%" width="15%"/>
+		</picture>
+	<button class="button button1">ORDER</button>
+	</header>
+		<div class="banner">
+	<img src="restaurant.jpg" alt="restaurant" class="res"/>
+	<p class="intro">Step into The House of the Sun, where the vibrant flavors<br> and warm hospitality of Spain come alive in the heart of Florida.<br>Serving Spanish food Since 1967.</p>
+		</div>
+	<nav>
+			<a href="#menuref">Menu</a>
+			<a href="#marketref">Marketplace</a>
+			<a href="#locationref">Location</a>
+		</nav>
+	<wrapper>
+		<section id="menuref">
+		<picture>
+			<img src="menu2.jpg" alt="Tapas on Table" class="menu"/>
+		</picture>
+		<button class="button button2">Restaurant Menu</button>
+		</section>
+		<section id="marketref">
+		<picture>
+			<img src="marketplace2.jpg" alt="Packaged Ham" class="market"/>
+		</picture>
+		<button class="button button3">Marketplace</button>
+		</section>
+		<section class="information" id="locationref">
+		<h4>Directions</h4>
+		<p>123 Wolstein St, Ruthsberry, FL 12034</p>
+		<h4>Hours of Operation</h4>
+		<p>Mon-Thurs: 8 AM- 9:30 PM</p>
+		<p id="end">Friday-Sun: 8 AM - 11 PM</p>
+		</section>
+	</wrapper>
+	<footer>
+	<p class="footertext">© 2025, Laura Losa. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+	</main>
+</body>
+</html>
