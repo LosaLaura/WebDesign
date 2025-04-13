@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of the Sun Spanish Restaurant | Laura Losa 2025</title>
+    <link rel="stylesheet" href="https://use.typekit.net/vpr2ygn.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a><img src="close.svg" alt="xbutton"></a></li>
+            <li><a href="#homeref">Home</a></li>
+            <li><a href="#menuref">Menu</a></li>
+            <li><a href="#marketref">Marketplace</a></li>
+            <li><a href="#locationref">Location</a></li>
+            </ul>
+        <ul>
+        <button><img src="sunlogo.svg" alt="sunlogo" class="logo" id="homeref"></button>
+        <li class="hideOnMobile"><a href="#menuref">Menu</a></li>
+        <li class="hideOnMobile"><a href="#marketref">Marketplace</a></li>
+        <li class="hideOnMobile"><a href="#locationref">Location</a></li>
+        <li class="menu-button" onclick=showSidebar()><a><img src="hamburger.svg" alt="hammenu"></a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+            <div class="bannerimage">
+                <img src="restaurant.jpg">
+                <h1>Step into The House of the Sun,<br>where vibrant flavors and warm hospitality of Spain come alive in the heart of Florida.<br> Serving Spanish food since 1967.</h1>
+            </div>
+    </div>
+</div>
+<wrapper>
+    <main>
+        <section class="mcontent">
+            <section class="Rmenu" id="menuref">
+                <img src="menu.jpg" alt="Spanish-food-on-table">
+                <button class="mbuttons">Restaurant Menu</button>
+            </section>
+            <section class="Rmarketplace" id="marketref">
+                <img src="marketplace.jpg" alt="Spanish-Marketplace">
+                <button class="mbuttons">Marketplace</button>
+            </section>
+        </section>
+        <div class="information" id="locationref">
+            <h4>Directions</h4>
+            <p>123 Wolstein St, Ruthsberry, FL 12034</p>
+            <h4>Hours of Operation</h4>
+            <p>Mon-Thurs: 8 AM - 9:30 PM</p>
+            <p class="infoend">Fri-Sun: 8 AM - 11 PM</p>
+        </div>
+    </main>
+</wrapper>
+<footer>
+    <p class="footertext">© 2025, Laura Losa. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+</body>
+</html>
