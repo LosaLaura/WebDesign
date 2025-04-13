@@ -6,7 +6,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House of the Sun Spanish Restaurant | Laura Losa 2025</title>
     <link rel="stylesheet" href="https://use.typekit.net/vpr2ygn.css">
-    <link rel="stylesheet" href="style.css">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: 'amster', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+    display: block;
+    width: auto;
+    height: 65px;
+}
+nav{
+    background-color: rgba(254,252,242,1.00);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 100px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: rgba(255, 233, 185, 0.5); 
+}
+nav button:first-child{
+    margin-right: auto;
+}
+nav button{
+    margin-left: 5%;
+    padding: 20px 0px;
+    background: none;
+    border: none;
+}
+body{
+    min-height: 100vh;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 248, 214, 0.6);
+    backdrop-filter: blur(15px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+.bannerimage{
+    position: relative;
+}
+.bannerimage img{
+    display: block;
+    width: 100%;
+    max-width: 3120px;
+    margin: 0 auto;
+}
+.bannerimage h1{
+    position: absolute;
+    font-family: 'amster', serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    font-size: 1.5rem;
+}
+main{
+    background-color: rgba(254,252,242,1.00);
+}
+.Rmenu img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.Rmenu button{
+    display: block;
+    margin: 0 auto;
+}
+.Rmenu{
+    margin-top: 50px;
+    background-color: transparent;
+    width: 798px;
+}
+.Rmarketplace img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.Rmarketplace button{
+    display: block;
+    margin: 0 auto;
+}
+.Rmarketplace{
+    margin-top: 50px;
+    background-color: transparent;
+    width: 798px;
+}
+.mcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.mbuttons{
+    border: none;
+    background: none;
+}
+.mbuttons{
+    font-family: 'amster', serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 399px;
+    background-color: rgba(251,174,71,0.85);
+    font-size: 1.5em;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    padding: 10px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.mbuttons:hover{
+    background-color: #A24803;
+    color: white;
+}
+.Rmenu img, .Rmarketplace img{
+    border-radius: 10px;
+}
+.information{
+    text-align: center;
+    font-family: 'amster', serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 15pt;
+    color: rgba(15,15,15,0.75);
+}
+.information p{
+    line-height: 400%;
+}
+.information h4{
+    line-height: 400%;
+}
+footer{
+    margin: 0;
+    padding: 20px 5%;
+    width: 100%;
+    background-color: rgba(15,15,15,0.94);
+    background-position: bottom;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'amster', serif;
+    font-weight: 300;
+    font-style: normal;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .mcontent{
+        flex-direction: column;
+    }
+    .Rmenu, .Rmarketplace{
+        width: 532px;
+    }
+}
+@media(max-width: 500px){
+    .sidebar{
+        width: 100%;
+    }
+    .Rmenu, .Rmarketplace{
+        width: 399px;
+    }
+}
+</style>
 </head>
 <body>
 <header>
